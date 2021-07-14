@@ -1,0 +1,25 @@
+body {
+    background:linear-gradient(45deg,  rgb(34, 92, 1) 0%,rgb(16, 129, 3)) 35%, rgb(4, 255, 0) 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 650px;
+}
+
+
+
+main {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100px auto auto;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(250, 239, 239);
+    padding: 15px;
+}
+
+.box {
+    margin: auto;
+    width: 60%;
+}
